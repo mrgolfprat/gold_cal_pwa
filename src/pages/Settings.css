@@ -1,0 +1,23 @@
+.setting-container {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1.4rem 1.4rem 4rem 1.4rem;
+}
+
+.edit-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.edit-container div {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.normal-input {
+  margin-left: 38px;
+}
+
+/* .MuiIconButton-root {
+  padding: 12px 0 !important;
+} */

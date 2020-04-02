@@ -1,0 +1,65 @@
+/* @font-face {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Kanit"),
+    url("./assets/fonts/Kanit/Kanit-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "KanitBold";
+  font-style: bold;
+  font-weight: 700;
+  src: local("KanitBold"),
+    url("./assets/fonts/Kanit/Kanit-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Sarabun"),
+    url("./assets/fonts/Sarabun/Sarabun-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SarabunBold";
+  font-style: bold;
+  font-weight: 700;
+  src: local("SarabunBold"),
+    url("./assets/fonts/Sarabun/Sarabun-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Taviraj";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Taviraj"),
+    url("./assets/fonts/Taviraj/Taviraj-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TavirajBold";
+  font-style: bold;
+  font-weight: 700;
+  src: local("TavirajBold"),
+    url("./assets/fonts/Taviraj/Taviraj-Bold.ttf") format("truetype");
+} */
+
+@import url("https://fonts.googleapis.com/css?family=Sarabun:400,700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Sarabun", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: #282c34; */
+  font-size: 16px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
